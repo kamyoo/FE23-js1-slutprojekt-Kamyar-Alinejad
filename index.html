@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <script type="module" src="./main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="centerElements">
+            <h1>Movie Database</h1>
+        </div>
+        <form id="searchForm" class="centerElements">
+            <input type="text" id="textSearch" placeholder="Search" class="smallSpace">
+            <input type="radio" name="radioBtn" id="movieBtn" class="marginLeft">
+            <label class="smallSpace" for="movieBtn">Movie</label>
+            <input type="radio" name="radioBtn" id="actorBtn" class="marginLeft">
+            <label class="smallSpace" for="actorBtn">Actor</label>
+            <button id="searchBtn" class="button-87">Search</button>
+        </form>
+        <form id="topTenMovies" class="centerElements">
+            <button id="popularBtn" class="button-87">Pop Movies</button>
+            <button id="topRatedBtn" class="button-87">Top Movies</button>
+        </form>
+    </header>
+        <div id="container"></div>
+</body>
+</html>
